@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?d2ig8k');
+    src: url('../fonts/icomoon.eot?d2ig8k#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?d2ig8k') format('truetype'),
+        url('../fonts/icomoon.woff?d2ig8k') format('woff'),
+        url('../fonts/icomoon.svg?d2ig8k#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* < !-- Shortcut,top nav --> */
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+.arrow-icon::after {
+    content: '\e92e';
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+
+/* < !-- header region --> */
+.header {
+    height: 105px;
+    background-color: pink;
+}

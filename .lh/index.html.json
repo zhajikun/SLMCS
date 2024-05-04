@@ -1,0 +1,50 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1714762082998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714762092142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <title>Shopping Web</title>\n+  </head>\n+  <body></body>\n+</html>\n"
+                },
+                {
+                    "date": 1714762296179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,8 @@\n   <head>\n     <meta charset=\"UTF-8\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Shopping Web</title>\n+    <link rel=\"stylesheet\" href=\"css/base.css\">\n   </head>\n   <body></body>\n </html>\n"
+                },
+                {
+                    "date": 1714762302398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,19 +3,8 @@\n   <head>\n     <meta charset=\"UTF-8\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Shopping Web</title>\n-    <link rel=\"stylesheet\" href=\"css/base.css\">\n+    <link rel=\"stylesheet\" href=\"css/base.css\" />\n   </head>\n   <body></body>\n </html>\n-<!DOCTYPE html>\n-<html lang=\"en\">\n-<head>\n-    <meta charset=\"UTF-8\">\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title>Document</title>\n-</head>\n-<body>\n-    \n-</body>\n\\ No newline at end of file\n-</html>\n"
+                },
+                {
+                    "date": 1714762316075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Shopping Web</title>\n     <link rel=\"stylesheet\" href=\"css/base.css\" />\n   </head>\n-  <body></body>\n+  <body>\n+\n+    123\n+  </body>\n </html>\n"
+                },
+                {
+                    "date": 1714762358390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,6 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Shopping Web</title>\n     <link rel=\"stylesheet\" href=\"css/base.css\" />\n   </head>\n-  <body>\n-\n-    123\n-  </body>\n+  <body></body>\n </html>\n"
+                },
+                {
+                    "date": 1714763614176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n     <meta charset=\"UTF-8\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Shopping Web</title>\n     <link rel=\"stylesheet\" href=\"css/base.css\" />\n+    <link rel=\"stylesheet\" href=\"css/common.css\">\n   </head>\n   <body></body>\n </html>\n"
+                },
+                {
+                    "date": 1714764649333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Shopping Web</title>\n     <link rel=\"stylesheet\" href=\"css/base.css\" />\n     <link rel=\"stylesheet\" href=\"css/common.css\" />\n+    <link rel=\"stylesheet\" href=\"\">\n   </head>\n   <body></body>\n </html>\n"
+                },
+                {
+                    "date": 1714764661172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Shopping Web</title>\n     <link rel=\"stylesheet\" href=\"css/base.css\" />\n     <link rel=\"stylesheet\" href=\"css/common.css\" />\n-    <link rel=\"stylesheet\" href=\"\" />\n+   <link rel=\"shortcut icon\" href=\"favicon.ico\" />\n   </head>\n   <body></body>\n </html>\n"
+                }
+            ],
+            "date": 1714762082998,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    \n</body>\n</html>"
+        }
+    ]
+}

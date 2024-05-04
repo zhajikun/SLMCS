@@ -1,0 +1,106 @@
+{
+    "sourceFile": "css/common.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 22,
+            "patches": [
+                {
+                    "date": 1714763576338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714776986600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n .w {\n     width: 1200px;\n     margin: 0 auto;\n-}\n\\ No newline at end of file\n+}\n+\n+< !-- Shortcut,\n+top nav -->\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714777022968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,10 @@\n     width: 1200px;\n     margin: 0 auto;\n }\n \n-< !-- Shortcut,\n-top nav -->\n\\ No newline at end of file\n+/* < !-- Shortcut,top nav --> */\n+\n+.shortcut {\n+    height: 31px;\n+    background-color: #f1f1f1;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714777076881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,9 @@\n \n .shortcut {\n     height: 31px;\n     background-color: #f1f1f1;\n-}\n\\ No newline at end of file\n+}\n+\n+.fl {}\n+\n+.fr {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714777262199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,7 +9,11 @@\n     height: 31px;\n     background-color: #f1f1f1;\n }\n \n-.fl {}\n+.fl {\n+    float: left;\n\\ No newline at end of file\n+}\n \n-.fr {}\n+.fr {\n+    float: right;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714778345197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,9 @@\n }\n \n .fr {\n     float: right;\n+}\n+\n+.shortcut ul li {\n+    float: left;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714778360258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n /* < !-- Shortcut,top nav --> */\n \n .shortcut {\n     height: 31px;\n-    background-color: #f1f1f1;\n+    l background-color: #f1f1f1;\n }\n \n .fl {\n     float: left;\n"
+                },
+                {
+                    "date": 1714778382336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n /* < !-- Shortcut,top nav --> */\n \n .shortcut {\n     height: 31px;\n-    l background-color: #f1f1f1;\n+    line-height: 31px;\n+    background-color: #f1f1f1;\n }\n \n .fl {\n     float: left;\n"
+                },
+                {
+                    "date": 1714778495841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,11 @@\n .fr {\n     float: right;\n }\n \n+.style_red {\n+    color: red;\n+}\n+\n .shortcut ul li {\n     float: left;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714779416473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     float: right;\n }\n \n .style_red {\n-    color: red;\n+    color: #c81623;\n }\n \n .shortcut ul li {\n     float: left;\n"
+                },
+                {
+                    "date": 1714791406962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,12 @@\n }\n \n .shortcut ul li {\n     float: left;\n+}\n+\n+.shortcut .fr ul li:nth-child(even) {\n+    width: 1px;\n+    height: 12px;\n+    background-color: #666;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714791441028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,6 +30,7 @@\n .shortcut .fr ul li:nth-child(even) {\n     width: 1px;\n     height: 12px;\n     background-color: #666;\n+    margin: 9px 15px 0;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714791470169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .w {\n-    width: 1200px;\n+    width: 1400px;\n     margin: 0 auto;\n }\n \n /* < !-- Shortcut,top nav --> */\n"
+                },
+                {
+                    "date": 1714791770252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,6 +31,9 @@\n     width: 1px;\n     height: 12px;\n     background-color: #666;\n     margin: 9px 15px 0;\n+}\n \n+.arrow-icon::after {\n+    content: '1';\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714797440295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,6 +34,6 @@\n     margin: 9px 15px 0;\n }\n \n .arrow-icon::after {\n-    content: '1';\n+    content: '\\ea43';\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714797547686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-.w {\n+ea43 .w {\n     width: 1400px;\n     margin: 0 auto;\n }\n \n"
+                },
+                {
+                    "date": 1714797561475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,17 @@\n-ea43 .w {\n+@font-face {\n+    font-family: 'icomoon';\n+    src: url('fonts/icomoon.eot?d2ig8k');\n+    src: url('fonts/icomoon.eot?d2ig8k#iefix') format('embedded-opentype'),\n+        url('fonts/icomoon.ttf?d2ig8k') format('truetype'),\n+        url('fonts/icomoon.woff?d2ig8k') format('woff'),\n+        url('fonts/icomoon.svg?d2ig8k#icomoon') format('svg');\n+    font-weight: normal;\n+    font-style: normal;\n+    font-display: block;\n+}\n+\n+.w {\n     width: 1400px;\n     margin: 0 auto;\n }\n \n"
+                },
+                {
+                    "date": 1714797588291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n @font-face {\n     font-family: 'icomoon';\n-    src: url('fonts/icomoon.eot?d2ig8k');\n-    src: url('fonts/icomoon.eot?d2ig8k#iefix') format('embedded-opentype'),\n-        url('fonts/icomoon.ttf?d2ig8k') format('truetype'),\n-        url('fonts/icomoon.woff?d2ig8k') format('woff'),\n-        url('fonts/icomoon.svg?d2ig8k#icomoon') format('svg');\n+    src: url('../fonts/icomoon.eot?d2ig8k');\n+    src: url('../fonts/icomoon.eot?d2ig8k#iefix') format('embedded-opentype'),\n+        url('../fonts/icomoon.ttf?d2ig8k') format('truetype'),\n+        url('../fonts/icomoon.woff?d2ig8k') format('woff'),\n+        url('../fonts/icomoon.svg?d2ig8k#icomoon') format('svg');\n     font-weight: normal;\n     font-style: normal;\n     font-display: block;\n }\n"
+                },
+                {
+                    "date": 1714797670985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,5 +47,6 @@\n }\n \n .arrow-icon::after {\n     content: '\\ea43';\n+    font-family: 'icomoon';\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714797977979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,7 +46,7 @@\n     margin: 9px 15px 0;\n }\n \n .arrow-icon::after {\n-    content: '\\ea43';\n+    content: '\\e92e';\n     font-family: 'icomoon';\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714798352420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,5 +48,6 @@\n \n .arrow-icon::after {\n     content: '\\e92e';\n     font-family: 'icomoon';\n+    margin-left: 6px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714799175219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,5 +49,10 @@\n .arrow-icon::after {\n     content: '\\e92e';\n     font-family: 'icomoon';\n     margin-left: 6px;\n+}\n+\n+/* < !-- header region --> */\n+.header {\n+    b\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714799194267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,6 +53,7 @@\n }\n \n /* < !-- header region --> */\n .header {\n-    b\n+    height: 105px;\n+    background-color: pink;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1714763576338,
+            "name": "Commit-0",
+            "content": ".w {\n    width: 1200px;\n    margin: 0 auto;\n}"
+        }
+    ]
+}
