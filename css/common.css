@@ -145,3 +145,44 @@
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+.searchSection {
+    position: relative;
+    height: 25px;
+}
+
+.searchSection .logo_bottom {
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    line-height: 25px;
+    background-color: #E35032;
+    text-align: center;
+    color: #ffff33;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.search {
+    position: absolute;
+    left: 400px;
+    width: 600px;
+    height: 25px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 500px;
+    height: 22px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    width: 96px;
+    height: 22px;
+    background-color: #b1191a;
+
+}
