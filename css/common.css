@@ -167,7 +167,7 @@
 
 .search {
     position: absolute;
-    left: 400px;
+    left: 200px;
     width: 600px;
     height: 25px;
     border: 2px solid #b1191a;
@@ -187,6 +187,32 @@
     background-color: #b1191a;
 }
 
+.download {
+    position: absolute;
+    background-color: pink;
+    left: 800px;
+    width: 600px;
+    height: 25px;
+}
+
+.download ul {
+    float: left;
+    margin: 0 10px;
+}
+
+.download ul li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 20px;
+}
+
+.download ul li a {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #1A1DEE;
+}
 
 .slider_display {
     height: 400px;
