@@ -15,6 +15,10 @@
     margin: 0 auto;
 }
 
+.cursor:hover {
+    cursor: pointer;
+}
+
 /* < !-- Shortcut,top nav --> */
 
 .shortcut {
@@ -215,13 +219,13 @@
 }
 
 .slider_display {
-    height: 400px;
-    background-color: pink;
-
+    position: relative;
+    height: 320px;
+    background-color: #fff;
 }
 
 .loop-wrap {
-    position: relative;
+    position: absolute;
     width: 850px;
     height: 320px;
     overflow: hidden;
@@ -303,4 +307,51 @@
     }
 
     /* 复位到第一张图片 */
+}
+
+.activity_flyer {
+    position: absolute;
+    right: 0;
+    width: 550px;
+    height: 320px;
+}
+
+.state_flyer {
+    position: absolute;
+    width: 500px;
+    height: 120px;
+    margin: 10px 22px;
+    background: url(../images/LunarNewYear2024.png) no-repeat center center;
+    background-size: cover;
+}
+
+.state_flyer_MO {
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    margin: 0 22px;
+    border: 1px solid #8F191E;
+    background: url(../images/Lunar2021_MO.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.gala_cn {
+    position: absolute;
+    top: 130px;
+    width: 150px;
+    height: 220px;
+    margin: 10px 22px;
+    background: url(../images/GalaFlyer_cn.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.gala_en {
+    position: absolute;
+    top: 130px;
+    right: 200px;
+    width: 150px;
+    height: 220px;
+    margin: 10px 22px;
+    background: url(../images/GalaFlyer_en.jpg) no-repeat center center;
+    background-size: cover;
 }
