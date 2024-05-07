@@ -85,3 +85,9 @@
     height: 36px;
     border: 2px solid #b1191a;
 }
+
+.search input {
+    width: 455px;
+    height: 32px;
+    padding-left: 10px;
+}
