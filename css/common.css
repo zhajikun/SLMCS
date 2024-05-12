@@ -358,15 +358,15 @@
 
 .middle {
     position: relative;
-    height: 800px;
+    height: 600px;
     background-color: pink;
+    margin-top: 5px;
 }
 
 .schedule {
     position: absolute;
     width: 400px;
-    height: 522px;
-    background-color: skyblue;
+    height: 600px;
 }
 
 .schedule h2 {
@@ -415,7 +415,7 @@
     width: 400px;
     height: 522px;
     margin: 0 10px;
-    background-color: #fff;
+    background-color: ;
 }
 
 .recruitment {
@@ -431,7 +431,7 @@
     font: 16px sans-serif;
     font-weight: bold;
     color: #1A1DEE;
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 15px 15px 20px 25px;
 }
 
