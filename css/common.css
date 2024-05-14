@@ -359,7 +359,7 @@
 .middle {
     position: relative;
     height: 600px;
-    background-color: pink;
+    /* background-color: pink; */
     margin-top: 5px;
 }
 
