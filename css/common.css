@@ -522,32 +522,27 @@
 }
 
 .mod_link {
+    position: absolute;
     text-align: center;
     margin: 0 auto;
 }
 
-.mod_link dl dt {
-    display: block;
-    font-size: 25px;
-    font-weight: 600;
-    padding-bottom: 2px;
 
-}
-
-.mod_link dl dd {
+.mod_link ul li {
     float: left;
     width: 250px;
     height: 50px;
 }
 
 
-.mod_link dl dd img {
+
+.mod_link ul li img {
     float: left;
     width: 50px;
     height: 50px;
 }
 
-.mod_link dl dd h4 {
+.mod_link ul li h4 {
     float: left;
     line-height: 50px;
     font-size: 14px;
@@ -556,10 +551,8 @@
 }
 
 .mod_copyright {
-    position: absolute;
+    position: relative;
     top: 100px;
-    left: 35%;
     margin: 20px auto;
     text-align: center;
-
 }
