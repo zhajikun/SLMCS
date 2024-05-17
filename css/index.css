@@ -212,3 +212,9 @@
 	width: 219px;
 	height: 361px;
 }
+
+.bb {
+	/* a has width , need to display as block */
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
