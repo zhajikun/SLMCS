@@ -497,7 +497,7 @@
 
 .chinese_classes ul li {
     padding: 6px 10px;
-    border-bottom: 2px solid #9A9A9A;
+    border-bottom: 2px solid #E9E5DA;
 }
 
 .chinese_classes ul li a {
@@ -510,9 +510,9 @@
     color: rgb(0, 0, 0);
 }
 
-.chinese_classes ul li:last-of-type {
-    border-bottom: none;
-}
+/*.chinese_classes ul li:last-of-type {*/
+/*    border-bottom: none;*/
+/*}*/
 
 .footer {
     position: relative;
@@ -523,10 +523,11 @@
 
 .mod_link {
     position: absolute;
+    width: 1400px;
     text-align: center;
     margin: 0 auto;
-}
 
+}
 
 .mod_link ul li {
     float: left;
@@ -550,10 +551,18 @@
     padding-left: 3px;
 }
 
+.mod_link h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 10px auto;
+    color: #000
+
+}
 
 .mod_copyright {
-    position: relative;
-    top: 100px;
-    margin: 20px auto;
+    position: absolute;
+    top: 120px;
+    left: 850px;
     text-align: center;
 }
+
