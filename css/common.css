@@ -101,7 +101,7 @@
 
 .logo {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     width: 200px;
     height: 200px;
     border: 1px solid red;
@@ -113,7 +113,7 @@
     display: block;
     width: 200px;
     height: 200px;
-    background: url(../images/SLMCS_LOGO_300_trans.gif) no-repeat;
+    background: url(../images/SLMCS_LOGO_300_trans.gif) no-repeat center center;
     background-size: cover;
     /* font-size: 0; */
     text-indent: -9999px;
@@ -556,7 +556,6 @@
     font-weight: 800;
     margin: 10px auto;
     color: #000
-
 }
 
 .mod_copyright {
@@ -565,4 +564,3 @@
     left: 850px;
     text-align: center;
 }
-
