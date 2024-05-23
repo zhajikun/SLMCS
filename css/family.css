@@ -1,6 +1,117 @@
 .fillinarea {
-    height: 400px;
+    height: 800px;
     border: 1px solid #ccc;
     margin-top: 20px;
     background-color: #fff;
+}
+
+
+.fillinarea h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0px auto;
+    color: #000;
+    font-weight: bold;
+}
+
+.owner-info {
+    float: left;
+    width: 400px;
+    padding-left: 25px;
+}
+
+
+
+.owner-info p {
+    display: block;
+    font-size: 15px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+
+.family-info {
+    float: right;
+    height: 600px;
+    width: 800px;
+    background-color: pink;
+}
+
+. form {
+    padding-left: 15px;
+    margin: 10px auto;
+    width: 100%;
+    border-radius: 7px;
+
+}
+
+
+
+form .form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+form label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+form .inp {
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+    background: #fff;
+    border-radius: 3px;
+    border: 2px solid #bfbfbf;
+}
+
+form input:focus {
+    border-color: #9a9a9a;
+}
+
+
+form input.error,
+form select.error {
+    border-color: #f91919;
+    background: #f9f0f1;
+}
+
+.submit-btn {
+    width: 100%;
+    margin: 20px auto;
+    float: left;
+
+}
+
+.submit-btn input {
+    width: 100%;
+    color: #fff;
+    border: none;
+    height: auto;
+    font-size: 24px;
+    padding: 13px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 800;
+    text-align: center;
+    background: #003366;
+    transition: 0.2s ease;
+}
+
+footer {
+    height: 35px;
+    text-align: center;
+    margin: 20px auto;
+    color: #000;
+    line-height: 35px;
+}
+
+footer span {
+    font-weight: bold;
 }
