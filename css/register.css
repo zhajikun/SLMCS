@@ -1,19 +1,47 @@
-.registerarea {
-    height: 800px;
+.fillarea {
+    height: 400px;
     border: 1px solid #ccc;
     margin-top: 20px;
     background-color: #fff;
 }
 
 
+.loginbox {
+    float: left;
+    width: 600px;
+    border: 1px solid transparent;
+}
+
+.loginbox a {
+    float: left;
+    margin-left: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+}
+
+.loginbox a:hover {
+    color: hwb(210 5% 12% / 0.842);
+}
+
+.registerbox {
+    float: right;
+    width: 600px;
+    border: 1px solid transparent;
+    padding-right: 50px;
+}
+
+.registerbox h3 {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 form {
     padding: 25px;
-    margin: 150px auto 50px;
-    /* background: #fff; */
-    max-width: 800px;
+    margin: 25px auto;
     width: 100%;
     border-radius: 7px;
-    /* box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05); */
 
 }
 
@@ -58,9 +86,11 @@ form select.error {
     background: #f9f0f1;
 }
 
-
 .submit-btn {
     margin-top: 30px;
+    width: 200px;
+    float: right;
+
 }
 
 .submit-btn input {
