@@ -88,17 +88,28 @@
 
 
 .family-members .ckb {
-    padding-left: 18px;
+    padding-left: 12px;
 }
 
 
 .family-members select {
     display: block;
     background-color: white;
+    height: 43px;
+    border: 2px solid #bfbfbf;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -10px;
+}
 
-
-
-
+.family-members input[type="date"] {
+    display: block;
+    background-color: white;
+    height: 43px;
+    border: 2px solid #bfbfbf;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -10px;
 }
 
 .form {
