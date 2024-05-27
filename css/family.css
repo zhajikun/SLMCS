@@ -121,7 +121,12 @@
 }
 
 
+.rules {
+    font-size: 14px;
+    color: #FF0000;
+    font-weight: bold;
 
+}
 
 
 form .form-group {
