@@ -14,9 +14,18 @@
     font-weight: bold;
 }
 
+.fillinarea h3 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0px auto;
+    color: #000;
+    font-weight: bold;
+}
+
 .owner-info {
     float: left;
-    width: 400px;
+    width: 360px;
+    margin-top: 25px;
     padding-left: 25px;
 }
 
@@ -33,17 +42,74 @@
 .family-info {
     float: right;
     height: 600px;
-    width: 800px;
-    background-color: pink;
+    width: 980px;
+    margin: 10px auto;
+    margin-right: 25px;
 }
 
-. form {
+
+.family-members-table thead,
+.parent-table thead {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #003366;
+    color: #ffffff;
+}
+
+.parent-table thead tr td:first-child,
+.family-members-table thead tr td:first-child {
+    background-color: #fff;
+}
+
+.family-members-table tbody,
+.parent-table tbody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+}
+
+.parent-table .ckb {
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+
+
+.family-members {
+    border-spacing: 0;
+}
+
+.family-members tbody td:first-child {
+    text-align: right;
+    padding-right: 5px;
+}
+
+
+.family-members .ckb {
+    padding-left: 18px;
+}
+
+
+.family-members select {
+    display: block;
+    background-color: white;
+
+
+
+
+}
+
+.form {
     padding-left: 15px;
     margin: 10px auto;
     width: 100%;
     border-radius: 7px;
 
 }
+
+
 
 
 

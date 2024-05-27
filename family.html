@@ -43,11 +43,11 @@
       </div>
     </header>
     <div class="fillinarea w">
-      <h2>New Family Registrater</h2>
+      <h2>New Family Registration</h2>
       <form action="#">
         <div class="form-group owner-info">
           <div class="title">
-            <h2>Home Information:</h2>
+            <h3>Home Information:</h3>
           </div>
           <label for="address">Address*</label>
           <input
@@ -92,7 +92,243 @@
           </div>
         </div>
 
-        <div class="form-group family-info"></div>
+        <div class="form-group family-info">
+          <div class="parent">
+            <h3>Parent (House Head) Information:</h3>
+            <table class="parent-table">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="200px" />
+              <col width="200px" />
+              <col width="200px" />
+              <col width="200px" />
+              <col width="50px" />
+              <thead>
+                <tr>
+                  <td></td>
+                  <td>Chinese Name</td>
+                  <td>Last Name (Eng)*</td>
+                  <td>First Name (Eng)*</td>
+                  <td>Work Phone</td>
+                  <td>Email*</td>
+                  <td>Receive Email?</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Father</td>
+                  <td>
+                    <input
+                      type="text"
+                      id="father_chinese_name"
+                      placeholder=""
+                      class="inp width-md"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="father_last_name_eng"
+                      placeholder=""
+                      class="inp width-md"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="father_first_name_eng"
+                      placeholder=""
+                      class="inp width-md"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="father_work_phone"
+                      placeholder=""
+                      class="inp width-md"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="father_email"
+                      placeholder=""
+                      class="inp width-lg"
+                    />
+                  </td>
+                  <td class="ckb">
+                    <input
+                      type="checkbox"
+                      id="father_receive_email"
+                      name="father_receive_email"
+                      value="false"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mother</td>
+                  <td>
+                    <input
+                      type="text"
+                      id="mother_chinese_name"
+                      placeholder=""
+                      class="inp"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="mother_last_name_eng"
+                      placeholder=""
+                      class="inp"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="mother_first_name_eng"
+                      placeholder=""
+                      class="inp"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="mother_work_phone"
+                      placeholder=""
+                      class="inp"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="mother_email"
+                      placeholder=""
+                      class="inp width-lg"
+                    />
+                  </td>
+                  <td class="ckb">
+                    <input
+                      type="checkbox"
+                      id="mother_receive_email"
+                      name="mother_receive_email"
+                      value="false"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="family-members">
+            <h3>Other Family Members:</h3>
+            <table class="family-members-table">
+              <col width="50px" />
+              <col width="100px" />
+              <col width="100px" />
+              <col width="100px" />
+              <col width="50px" />
+              <col width="130px" />
+              <col width="200px" />
+              <col width="100px" />
+              <col width="150px" />
+              <col width="50px" />
+              <thead>
+                <tr>
+                  <td></td>
+                  <td class="">Chinese Name</td>
+                  <td>Last Name (Eng)*</td>
+                  <td>First Name (Eng)*</td>
+                  <td>Gender</td>
+                  <td>Phone</td>
+                  <td>Email</td>
+                  <td>Relation</td>
+                  <td>Date of Birth</td>
+                  <td>Receive Email?</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                    <input
+                      type="text"
+                      id="chinese_name_1"
+                      placeholder=""
+                      class="inp width-sd"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="first_name_eng_1"
+                      placeholder=""
+                      class="inp"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="last_name_eng_1"
+                      placeholder=""
+                      class="inp"
+                    />
+                  </td>
+                  <td class="select">
+                    <select name="gender" id="gender_1">
+                      <option value="M">M</option>
+                      <option value="F">F</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="phone_1"
+                      placeholder=""
+                      class="inp"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="email_1"
+                      placeholder=""
+                      class="inp"
+                    />
+                  </td>
+                  <td class="relation">
+                    <select name="relation" id="relation_1">
+                      <option value="self">Self</option>
+                      <option value="son">Son</option>
+                      <option value="daughter">Daughter</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </td>
+                  <td class="dob">
+                    <input
+                      type="date"
+                      id="dob_1"
+                      name="date of birth"
+                      value="2018-07-22"
+                      min="1920-01-01"
+                      max="2120-12-31"
+                    />
+                  </td>
+
+                  <td class="ckb">
+                    <input
+                      type="checkbox"
+                      id="receive_email_1"
+                      name="receive_email"
+                      value="false"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </form>
     </div>
     <footer>
